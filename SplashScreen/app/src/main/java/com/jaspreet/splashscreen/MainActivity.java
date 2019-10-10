@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.button);
         GS = findViewById(R.id.imageView);
         text = findViewById(R.id.imageView2);
-
+//animation added
         top = AnimationUtils.loadAnimation(this,R.anim.top);
         bottom = AnimationUtils.loadAnimation(this,R.anim.bottom);
         left = AnimationUtils.loadAnimation(this,R.anim.left);
